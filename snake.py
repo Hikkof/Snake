@@ -6,7 +6,7 @@ RED = (255, 0, 50)
 GREEN = (0, 128, 0)
 
 
-class Snake(object):  # sterowanie przy pomocy w, a, s, d
+class Snake(object):  # to control the snake use w, a, s, d keys
     def __init__(self, game):
         self.game = game
         self.size = 1
