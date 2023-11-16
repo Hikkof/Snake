@@ -8,7 +8,7 @@ ROYAL_BLUE = (65, 105, 225)
 
 
 class Game(object):
-    def __init__(self, ai=False):
+    def __init__(self):
         self.max_fps = 10  # 60
         self.width, self.height = 500, 500
 
