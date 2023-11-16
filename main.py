@@ -9,7 +9,7 @@ ROYAL_BLUE = (65, 105, 225)
 
 class Game(object):
     def __init__(self):
-        self.max_fps = 10  # 60
+        self.max_fps = 10
         self.width, self.height = 500, 500
 
         pygame.init()
